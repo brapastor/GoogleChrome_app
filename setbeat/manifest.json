@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "SetBeat",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "1.0",
+  "icons": {
+    "128": "128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions": [
+    "webview"
+  ]
+}
